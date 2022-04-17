@@ -1,0 +1,69 @@
+header{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 25px;
+}
+h1{
+    font-size: 3em;
+}
+.header-titulo{
+    text-align: center;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding-inline-start: 0;
+}
+.linea, .footer-columnas{
+    display: flex;
+}
+.linea li{
+    margin-left: 10px;
+}
+.primary-menu{
+    font-size: 1.3em;
+}
+#flotante{
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+#cta{
+    color: orangered;
+}
+.producto{
+    text-align: center;
+}
+.producto-imagen{
+    width: 350px;
+}
+.lista-producto{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+.footer-columnas{
+    justify-content: space-around;
+}
+.contacto, .cta{
+    text-align: center;
+}
+#cta-porcentaje{
+    font-weight: bold;
+}
+#cta-suscribete, #cta-porcentaje{
+    font-size: 2em;
+}
+.cta form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cta input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 300px;
+}
